@@ -3,6 +3,10 @@ db-manager
 
 Laravel Package for Database management easier.
 
+- Lists all the tables in the database
+- Lists all the columns of a table
+- Get datatype of a column
+
 ## Install
 1. Add in your composer.json `"howlowck/db-manager": "dev-master"`
 2. Add in your `app/config/app.php` service provider:
