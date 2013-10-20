@@ -1,4 +1,4 @@
-db-manager
+db-manager [![Build Status](https://travis-ci.org/howlowck/db-manager.png?branch=master)](https://travis-ci.org/howlowck/db-manager)
 ==========
 
 Laravel Package for Database management easier.
