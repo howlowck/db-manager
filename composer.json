@@ -1,6 +1,7 @@
 {
     "name": "howlowck/db-manager",
-    "description": "",
+    "description": "makes database management a little easier",
+    "keywords": ["laravel", "database"],
     "authors": [
         {
             "name": "Hao Luo",
