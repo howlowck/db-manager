@@ -1,0 +1,26 @@
+{
+    "name": "howlowck/db-manager",
+    "description": "",
+    "authors": [
+        {
+            "name": "Hao Luo",
+            "email": "haowebdev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "howlowck/support": "*",
+        "illuminate/database": "4.0.x"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.8.*",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Howlowck\\DbManager": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
