@@ -27,10 +27,8 @@ class TestDbManager extends PHPUnit_Framework_TestCase {
 			m::mock('column', array('getName' => 'updated_at'))
 		);
 		$this->db->shouldReceive('connection->getDoctrineSchemaManager->listTableColumns')->with('posts')->once()->andReturn($columns);
-
 		$expected = ['id', 'title', 'content'];
 		$actual = $this->dbmanager->listColumns('posts', ['created_at', 'updated_at']);
-
 		$this->assertEquals($expected, $actual);
 	}
 }

@@ -28,4 +28,6 @@ class DbManager {
 	public function getColumnType($table, $column) {
 		return $this->db->getDoctrineColumn($table, $column)->getType()->getName();
 	}
+
+
 }

@@ -1,4 +1,4 @@
-db-manager [![Build Status](https://travis-ci.org/howlowck/db-manager.png?branch=master)](https://travis-ci.org/howlowck/db-manager)
+db-manager [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/howlowck/db-manager/trend.png)](https://bitdeli.com/free "Bitdeli Badge") [![Build Status](https://travis-ci.org/howlowck/db-manager.png?branch=master)](https://travis-ci.org/howlowck/db-manager)
 ==========
 
 Laravel Package for Database management easier.
