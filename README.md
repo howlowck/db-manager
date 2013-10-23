@@ -10,7 +10,7 @@ Laravel Package for Database management easier.
 ## Install
 1. Add in your composer.json `"howlowck/db-manager": "dev-master"`
 2. Add in your `app/config/app.php` service provider:
-`'Howlowck\DbmanagerL4\DbmanagerL4ServiceProvider'`
+`'Howlowck\DbManager\DbManagerServiceProvider'`
 3. (optional) add the facade:
 `'DbManager' => 'Howlowck\DbManager\Facades\DbManager',`
 
