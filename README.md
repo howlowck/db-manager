@@ -18,7 +18,7 @@ Laravel Package for Database management easier.
 (If you use the Facade: )
 
 - `DbManager::listTables( [optional] $exclude )`
--- lists all the tables in your database, $exclude is an array that you want to exclude from the final result
+-- lists all the tables in your database, $exclude is an array that you want to exclude from the final result (Note: by default, it excludes `migrations` table);
 
 - `DbManager::listColumns($table, [optional] $exclude)`
 -- lists all the columns in the given table.
