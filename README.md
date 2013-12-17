@@ -1,6 +1,8 @@
 db-manager [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/howlowck/db-manager/trend.png)](https://bitdeli.com/free "Bitdeli Badge") [![Build Status](https://travis-ci.org/howlowck/db-manager.png?branch=master)](https://travis-ci.org/howlowck/db-manager)
 ==========
 
+***Notice!*** This package requires Doctrine/DBAL.  As of Laravel 4.1, Laravel is not dependent on Doctrine, but you can still use doctrine, if you include `"doctrine/dbal": "2.5.*@dev"` in your composer.json.
+
 Laravel Package for Database management easier.
 
 - Lists all the tables in the database
