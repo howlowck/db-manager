@@ -10,10 +10,11 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "4.0.x",
+        "illuminate/support": "4.1.x",
         "howlowck/support": "*",
-        "illuminate/database": "4.0.x",
-        "fzaninotto/faker": "1.2.*@dev"
+        "illuminate/database": "4.1.x",
+        "doctrine/dbal": "2.5.*@dev",
+        "fzaninotto/faker": "1.4.*"
     },
     "require-dev": {
         "mockery/mockery": "0.8.*",
